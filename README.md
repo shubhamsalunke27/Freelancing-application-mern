@@ -39,7 +39,7 @@ npm start
 
 DEMO VIDEO
 Google Drive Link:
-[PASTE YOUR DEMO VIDEO LINK HERE](https://docs.google.com/videos/d/1nHiBkeNDCgShMW7T7Ee-BHdmt82NeZFXMay_8VJcaF0/play)
+[DEMO VIDEO LINK](https://docs.google.com/videos/d/1nHiBkeNDCgShMW7T7Ee-BHdmt82NeZFXMay_8VJcaF0/play)
 
 GUIDED PROJECT DETAILS
 Project: Freelancing Application (MERN)
