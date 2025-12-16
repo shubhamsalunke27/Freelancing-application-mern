@@ -1,0 +1,347 @@
+.landing-page{
+
+    height: fit-content;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-hero{
+
+    background: url('../images/landing-bg.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.landing-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.landing-nav{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 2vw;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.landing-nav h3{
+
+    margin: 0;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Kaushan Script', cursive;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links p {
+    color: white;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+.nav-links p:hover {
+    color: #e1d5d5;
+}
+
+.landing-nav button{
+
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    color: #ffffff;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.landing-nav button:hover{
+
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.landing-hero-text{
+
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10vh;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+.landing-hero-text h1{
+
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+}
+
+
+.landing-hero-text p{
+
+    font-family: 'Work Sans', sans-serif;
+    color: #f0f0f0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+    margin: 20px 0;
+}
+
+.landing-hero-text button{
+
+    margin-top: 20px;
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    background-color: #ff6b35;
+    border: 2px solid #ff6b35;
+    color: #ffffff;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+}
+
+.landing-hero-text button:hover{
+
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    background-color: #e55a2b;
+    border: 2px solid #e55a2b;
+    color: #ffffff;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+}
+
+.landing-features {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.landing-features h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.feature-card p {
+    color: #666;
+    line-height: 1.6;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.landing-how-it-works {
+    padding: 4rem 2rem;
+    background-color: white;
+    text-align: center;
+}
+
+.landing-how-it-works h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.step {
+    padding: 2rem;
+    border-radius: 10px;
+    background: #f8f9fa;
+    position: relative;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.step h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.step p {
+    color: #666;
+    line-height: 1.6;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.landing-footer {
+    background-color: #333;
+    color: white;
+    padding: 3rem 2rem 1rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.footer-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-section p {
+    margin: 0.5rem 0;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    transition: color 0.3s;
+}
+
+.footer-section p:hover {
+    color: #007bff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #555;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .landing-nav {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 2vw;
+    }
+
+    .nav-links {
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+
+    .landing-hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .landing-hero-text {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .features-grid, .steps, .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .landing-features, .landing-how-it-works {
+        padding: 2rem 1rem;
+    }
+
+    .landing-features h2, .landing-how-it-works h2 {
+        font-size: 2rem;
+    }
+}
