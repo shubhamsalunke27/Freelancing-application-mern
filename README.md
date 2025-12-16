@@ -38,8 +38,7 @@ npm install
 npm start
 
 DEMO VIDEO
-Google Drive Link:
-[DEMO VIDEO LINK](https://docs.google.com/videos/d/1nHiBkeNDCgShMW7T7Ee-BHdmt82NeZFXMay_8VJcaF0/play)
+Google Drive Link:(https://docs.google.com/videos/d/1nHiBkeNDCgShMW7T7Ee-BHdmt82NeZFXMay_8VJcaF0/play)
 
 GUIDED PROJECT DETAILS
 Project: Freelancing Application (MERN)
