@@ -2,7 +2,7 @@ FREELANCING APPLICATION – MERN STACK
 
 OVERVIEW
 A full-stack Freelancing Application developed using the MERN stack.
-Clients can post jobs and freelancers can browse and apply for jobs.
+Clients can post jobs and freelancers can browse and apply for jobs. 
 
 TECH STACK
 - React.js
