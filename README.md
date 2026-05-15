@@ -177,7 +177,11 @@ npm start
 
 ## 🏠 Homepage
 
-> Add homepage screenshot here
+<div align="center">
+
+<img src="output/op1.png" alt="Homepage" width="100%">
+
+</div>
 
 ---
 
